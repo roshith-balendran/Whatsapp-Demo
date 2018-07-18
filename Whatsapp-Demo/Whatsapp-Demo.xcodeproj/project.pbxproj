@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34DAB63520FF48A800F8FA39 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB63420FF48A800F8FA39 /* HomeViewController.swift */; };
+		34DAB63920FF49B100F8FA39 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB63820FF49B100F8FA39 /* ChatViewController.swift */; };
 		34FC234F20FF3BC400B2FC8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FC234E20FF3BC400B2FC8D /* AppDelegate.swift */; };
-		34FC235120FF3BC400B2FC8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FC235020FF3BC400B2FC8D /* ViewController.swift */; };
 		34FC235420FF3BC400B2FC8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FC235220FF3BC400B2FC8D /* Main.storyboard */; };
 		34FC235720FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34FC235520FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodeld */; };
 		34FC235920FF3BCB00B2FC8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FC235820FF3BCB00B2FC8D /* Assets.xcassets */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34DAB63420FF48A800F8FA39 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		34DAB63820FF49B100F8FA39 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		34FC234B20FF3BC400B2FC8D /* Whatsapp-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whatsapp-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FC234E20FF3BC400B2FC8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34FC235020FF3BC400B2FC8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34FC235320FF3BC400B2FC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34FC235620FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Whatsapp_Demo.xcdatamodel; sourceTree = "<group>"; };
 		34FC235820FF3BCB00B2FC8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +78,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34DAB63A20FF49BF00F8FA39 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				34DAB63420FF48A800F8FA39 /* HomeViewController.swift */,
+				34DAB63820FF49B100F8FA39 /* ChatViewController.swift */,
+			);
+			name = ViewControllers;
+			path = V;
+			sourceTree = "<group>";
+		};
 		34FC234220FF3BC400B2FC8D = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				34FC234E20FF3BC400B2FC8D /* AppDelegate.swift */,
-				34FC235020FF3BC400B2FC8D /* ViewController.swift */,
+				34DAB63A20FF49BF00F8FA39 /* ViewControllers */,
 				34FC235220FF3BC400B2FC8D /* Main.storyboard */,
 				34FC235820FF3BCB00B2FC8D /* Assets.xcassets */,
 				34FC235A20FF3BCB00B2FC8D /* LaunchScreen.storyboard */,
@@ -259,9 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34FC235120FF3BC400B2FC8D /* ViewController.swift in Sources */,
 				34FC235720FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodeld in Sources */,
 				34FC234F20FF3BC400B2FC8D /* AppDelegate.swift in Sources */,
+				34DAB63920FF49B100F8FA39 /* ChatViewController.swift in Sources */,
+				34DAB63520FF48A800F8FA39 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
