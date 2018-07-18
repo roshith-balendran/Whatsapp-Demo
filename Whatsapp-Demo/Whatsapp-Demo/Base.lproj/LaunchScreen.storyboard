@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +17,46 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen" translatesAutoresizingMaskIntoConstraints="NO" id="UTU-5t-yoI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_icon" translatesAutoresizingMaskIntoConstraints="NO" id="z8c-Kc-MDX">
+                                <rect key="frame" x="119" y="226" width="137" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="Ih0-c9-5Gq"/>
+                                    <constraint firstAttribute="height" constant="135" id="WyU-Tb-vvx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to WhatsApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FW-qv-u1H">
+                                <rect key="frame" x="16" y="385" width="343" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UTU-5t-yoI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2dG-hj-FJb"/>
+                            <constraint firstItem="UTU-5t-yoI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8ZW-Ao-anP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1FW-qv-u1H" secondAttribute="trailing" constant="16" id="Dc9-SH-Weg"/>
+                            <constraint firstItem="1FW-qv-u1H" firstAttribute="top" secondItem="z8c-Kc-MDX" secondAttribute="bottom" constant="24" id="Mm9-ER-Kc2"/>
+                            <constraint firstItem="UTU-5t-yoI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="SyJ-8L-Ruh"/>
+                            <constraint firstItem="UTU-5t-yoI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fe1-cr-92Y"/>
+                            <constraint firstItem="z8c-Kc-MDX" firstAttribute="centerX" secondItem="UTU-5t-yoI" secondAttribute="centerX" id="hpT-R8-KKx"/>
+                            <constraint firstItem="1FW-qv-u1H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sdS-1b-hxb"/>
+                            <constraint firstItem="z8c-Kc-MDX" firstAttribute="centerY" secondItem="UTU-5t-yoI" secondAttribute="centerY" constant="-40" id="wNV-Sq-Qx1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launchscreen" width="368" height="688"/>
+        <image name="splash_icon" width="500" height="500"/>
+    </resources>
 </document>
