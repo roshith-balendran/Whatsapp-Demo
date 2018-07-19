@@ -13,6 +13,10 @@
 		344AA6002100756F002AF522 /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AA5FF2100756F002AF522 /* CallsViewController.swift */; };
 		344AA60221007594002AF522 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AA60121007594002AF522 /* StatusViewController.swift */; };
 		344AA6172100781C002AF522 /* ChatsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA6162100781C002AF522 /* ChatsStoryboard.storyboard */; };
+		344AA6192100B739002AF522 /* SettingsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA6182100B739002AF522 /* SettingsStoryboard.storyboard */; };
+		344AA61B2100B7A4002AF522 /* CallsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA61A2100B7A4002AF522 /* CallsStoryboard.storyboard */; };
+		344AA61D2100B7D5002AF522 /* StatusStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA61C2100B7D5002AF522 /* StatusStoryboard.storyboard */; };
+		344AA61F2100BB59002AF522 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AA61E2100BB59002AF522 /* BaseTabBarController.swift */; };
 		34FC234F20FF3BC400B2FC8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FC234E20FF3BC400B2FC8D /* AppDelegate.swift */; };
 		34FC235720FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34FC235520FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodeld */; };
 		34FC235920FF3BCB00B2FC8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FC235820FF3BCB00B2FC8D /* Assets.xcassets */; };
@@ -50,6 +54,10 @@
 		344AA5FF2100756F002AF522 /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CallsViewController.swift; path = "Whatsapp-Demo/ViewControllers/Calls/CallsViewController.swift"; sourceTree = SOURCE_ROOT; };
 		344AA60121007594002AF522 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusViewController.swift; path = "Whatsapp-Demo/ViewControllers/Status/StatusViewController.swift"; sourceTree = SOURCE_ROOT; };
 		344AA6162100781C002AF522 /* ChatsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatsStoryboard.storyboard; sourceTree = "<group>"; };
+		344AA6182100B739002AF522 /* SettingsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryboard.storyboard; sourceTree = "<group>"; };
+		344AA61A2100B7A4002AF522 /* CallsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CallsStoryboard.storyboard; sourceTree = "<group>"; };
+		344AA61C2100B7D5002AF522 /* StatusStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StatusStoryboard.storyboard; sourceTree = "<group>"; };
+		344AA61E2100BB59002AF522 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		34FC234B20FF3BC400B2FC8D /* Whatsapp-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whatsapp-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FC234E20FF3BC400B2FC8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34FC235620FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Whatsapp_Demo.xcdatamodel; sourceTree = "<group>"; };
@@ -101,6 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				344AA6162100781C002AF522 /* ChatsStoryboard.storyboard */,
+				344AA61C2100B7D5002AF522 /* StatusStoryboard.storyboard */,
+				344AA61A2100B7A4002AF522 /* CallsStoryboard.storyboard */,
+				344AA6182100B739002AF522 /* SettingsStoryboard.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -143,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				34FC234E20FF3BC400B2FC8D /* AppDelegate.swift */,
+				344AA61E2100BB59002AF522 /* BaseTabBarController.swift */,
 				344AA6152100772C002AF522 /* StoryBoards */,
 				34DAB63A20FF49BF00F8FA39 /* ViewControllers */,
 				34FC235820FF3BCB00B2FC8D /* Assets.xcassets */,
@@ -304,6 +316,9 @@
 			files = (
 				34FC235C20FF3BCB00B2FC8D /* LaunchScreen.storyboard in Resources */,
 				344AA6172100781C002AF522 /* ChatsStoryboard.storyboard in Resources */,
+				344AA61B2100B7A4002AF522 /* CallsStoryboard.storyboard in Resources */,
+				344AA61D2100B7D5002AF522 /* StatusStoryboard.storyboard in Resources */,
+				344AA6192100B739002AF522 /* SettingsStoryboard.storyboard in Resources */,
 				34FC235920FF3BCB00B2FC8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				344AA61F2100BB59002AF522 /* BaseTabBarController.swift in Sources */,
 				344AA60221007594002AF522 /* StatusViewController.swift in Sources */,
 				34FC235720FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodeld in Sources */,
 				34FC234F20FF3BC400B2FC8D /* AppDelegate.swift in Sources */,
