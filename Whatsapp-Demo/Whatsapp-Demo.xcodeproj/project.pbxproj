@@ -12,9 +12,6 @@
 		344AA5FE2100752E002AF522 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AA5FD2100752E002AF522 /* SettingsViewController.swift */; };
 		344AA6002100756F002AF522 /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AA5FF2100756F002AF522 /* CallsViewController.swift */; };
 		344AA60221007594002AF522 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AA60121007594002AF522 /* StatusViewController.swift */; };
-		344AA6102100770E002AF522 /* SettingsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA60F2100770E002AF522 /* SettingsStoryboard.storyboard */; };
-		344AA6122100771C002AF522 /* CallsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA6112100771C002AF522 /* CallsStoryboard.storyboard */; };
-		344AA61421007726002AF522 /* Status.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA61321007726002AF522 /* Status.storyboard */; };
 		344AA6172100781C002AF522 /* ChatsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA6162100781C002AF522 /* ChatsStoryboard.storyboard */; };
 		34FC234F20FF3BC400B2FC8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FC234E20FF3BC400B2FC8D /* AppDelegate.swift */; };
 		34FC235720FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34FC235520FF3BC400B2FC8D /* Whatsapp_Demo.xcdatamodeld */; };
@@ -52,9 +49,6 @@
 		344AA5FD2100752E002AF522 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "Whatsapp-Demo/ViewControllers/Settings/SettingsViewController.swift"; sourceTree = SOURCE_ROOT; };
 		344AA5FF2100756F002AF522 /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CallsViewController.swift; path = "Whatsapp-Demo/ViewControllers/Calls/CallsViewController.swift"; sourceTree = SOURCE_ROOT; };
 		344AA60121007594002AF522 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusViewController.swift; path = "Whatsapp-Demo/ViewControllers/Status/StatusViewController.swift"; sourceTree = SOURCE_ROOT; };
-		344AA60F2100770E002AF522 /* SettingsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsStoryboard.storyboard; sourceTree = "<group>"; };
-		344AA6112100771C002AF522 /* CallsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CallsStoryboard.storyboard; sourceTree = "<group>"; };
-		344AA61321007726002AF522 /* Status.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Status.storyboard; sourceTree = "<group>"; };
 		344AA6162100781C002AF522 /* ChatsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatsStoryboard.storyboard; sourceTree = "<group>"; };
 		34FC234B20FF3BC400B2FC8D /* Whatsapp-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whatsapp-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FC234E20FF3BC400B2FC8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,9 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				344AA6162100781C002AF522 /* ChatsStoryboard.storyboard */,
-				344AA60F2100770E002AF522 /* SettingsStoryboard.storyboard */,
-				344AA6112100771C002AF522 /* CallsStoryboard.storyboard */,
-				344AA61321007726002AF522 /* Status.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -313,9 +304,6 @@
 			files = (
 				34FC235C20FF3BCB00B2FC8D /* LaunchScreen.storyboard in Resources */,
 				344AA6172100781C002AF522 /* ChatsStoryboard.storyboard in Resources */,
-				344AA61421007726002AF522 /* Status.storyboard in Resources */,
-				344AA6122100771C002AF522 /* CallsStoryboard.storyboard in Resources */,
-				344AA6102100770E002AF522 /* SettingsStoryboard.storyboard in Resources */,
 				34FC235920FF3BCB00B2FC8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
